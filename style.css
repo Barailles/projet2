@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.auteur {     
+    font-size: 15px
+}  
 a,
 button {
     transition: all .3s ease-in-out;
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -789,7 +791,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .ltc-white:hover {
@@ -1026,7 +1028,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-}
+    }
 
 @media (max-width: 400px) {
     .bloc {
@@ -1038,5 +1040,16 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
-    }
+        }
+        .row.row-no-gutters.social {
+            display: flex;
+            ;
+        }
+        .col-sm-3 {
+            margin 0px 10px 0 10px;
+            width: 100%;
+        }
+        .row.row-no-gutters {
+            margin: 0 10px 0 10px
+        }
 }
