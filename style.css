@@ -11,9 +11,6 @@ body {
     padding: 0 500px 40PX 0
 
 }  
-.col-sm-12 h2 {
-    color: red;
-}
 
 
 .auteur {     
@@ -145,7 +142,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #FFF
 }
 
 .d-bloc .a-btn:hover,
@@ -162,7 +159,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #FFF;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -590,7 +587,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: #FFFFFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -599,7 +596,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -779,7 +776,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #424242;
 }
 
 .bgc-atomic-tangerine {
@@ -802,7 +799,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #424242!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
@@ -1062,7 +1059,7 @@ h4 {
             margin: 0px 50px 0px 50px;
         }
         .col-sm-3 {
-            margin 0px 10px 0 10px;
+            margin: 0 10px 0 10px;
             width: 100%;
         }
         .col-sm-20 {
